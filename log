@@ -1,0 +1,78 @@
+2021-10-27T16:49:44.613491+00:00 app[api]: Release v1 created by user mohammadmostafa1094@gmail.com
+2021-10-27T16:49:44.613491+00:00 app[api]: Initial release by user mohammadmostafa1094@gmail.com
+2021-10-27T16:49:45.092089+00:00 app[api]: Enable Logplex by user mohammadmostafa1094@gmail.com
+2021-10-27T16:49:45.092089+00:00 app[api]: Release v2 created by user mohammadmostafa1094@gmail.com
+2021-10-27T16:50:10.678799+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=772a3bff-d2cd-4484-89e3-929407866a55 fwd="182.48.67.194" dyno= connect= service= status=502 bytes= protocol=https
+2021-10-27T16:50:11.336625+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=8a2e2dfe-c457-473a-8d26-7aacfff20811 fwd="182.48.67.194" dyno= connect= service= status=502 bytes= protocol=https
+2021-10-27T16:50:23.882406+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=88659647-2583-4c72-a895-846a6bd00124 fwd="182.48.67.194" dyno= connect= service= status=502 bytes= protocol=https
+2021-10-27T16:50:24.437647+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=d5c71816-773c-4298-bcee-a2c9a1e22c53 fwd="182.48.67.194" dyno= connect= service= status=502 bytes= protocol=https
+2021-10-27T16:50:35.000000+00:00 app[api]: Build started by user mohammadmostafa1094@gmail.com
+2021-10-27T16:50:54.595844+00:00 app[api]: Release v3 created by user mohammadmostafa1094@gmail.com
+2021-10-27T16:50:54.595844+00:00 app[api]: Deploy 3a9568bf by user mohammadmostafa1094@gmail.com
+2021-10-27T16:50:54.613898+00:00 app[api]: Scaled to web@1:Free by user mohammadmostafa1094@gmail.com
+2021-10-27T16:50:55.000000+00:00 app[api]: Build succeeded
+2021-10-27T16:50:56.916386+00:00 heroku[web.1]: Starting process with command `npm start`
+2021-10-27T16:50:58.247283+00:00 app[web.1]: 
+2021-10-27T16:50:58.247302+00:00 app[web.1]: > genious-server@1.0.0 start /app
+2021-10-27T16:50:58.247302+00:00 app[web.1]: > node index.js
+2021-10-27T16:50:58.247303+00:00 app[web.1]: 
+2021-10-27T16:50:58.464521+00:00 app[web.1]: app listening at http://localhost:5000
+2021-10-27T16:50:58.556629+00:00 app[web.1]: MongoServerError: bad auth : Authentication failed.
+2021-10-27T16:50:58.556642+00:00 app[web.1]: at MessageStream.messageHandler (/app/node_modules/mongodb/lib/cmap/connection.js:467:30)
+2021-10-27T16:50:58.556642+00:00 app[web.1]: at MessageStream.emit (events.js:400:28)
+2021-10-27T16:50:58.556642+00:00 app[web.1]: at processIncomingData (/app/node_modules/mongodb/lib/cmap/message_stream.js:108:16)
+2021-10-27T16:50:58.556642+00:00 app[web.1]: at MessageStream._write (/app/node_modules/mongodb/lib/cmap/message_stream.js:28:9)
+2021-10-27T16:50:58.556643+00:00 app[web.1]: at writeOrBuffer (internal/streams/writable.js:358:12)
+2021-10-27T16:50:58.556643+00:00 app[web.1]: at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+2021-10-27T16:50:58.556643+00:00 app[web.1]: at TLSSocket.ondata (internal/streams/readable.js:731:22)
+2021-10-27T16:50:58.556643+00:00 app[web.1]: at TLSSocket.emit (events.js:400:28)
+2021-10-27T16:50:58.556644+00:00 app[web.1]: at addChunk (internal/streams/readable.js:293:12)
+2021-10-27T16:50:58.556644+00:00 app[web.1]: at readableAddChunk (internal/streams/readable.js:267:9) {
+2021-10-27T16:50:58.556644+00:00 app[web.1]: ok: 0,
+2021-10-27T16:50:58.556644+00:00 app[web.1]: code: 8000,
+2021-10-27T16:50:58.556645+00:00 app[web.1]: codeName: 'AtlasError'
+2021-10-27T16:50:58.556645+00:00 app[web.1]: }
+2021-10-27T16:51:57.702602+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-10-27T16:51:57.736691+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-10-27T16:51:57.752200+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2021-10-27T16:51:57.869239+00:00 heroku[web.1]: Process exited with status 22
+2021-10-27T16:51:58.024580+00:00 heroku[web.1]: State changed from starting to crashed
+2021-10-27T16:51:58.028876+00:00 heroku[web.1]: State changed from crashed to starting
+2021-10-27T16:51:59.982121+00:00 heroku[web.1]: Starting process with command `npm start`
+2021-10-27T16:52:00.866292+00:00 app[web.1]: 
+2021-10-27T16:52:00.866307+00:00 app[web.1]: > genious-server@1.0.0 start /app
+2021-10-27T16:52:00.866307+00:00 app[web.1]: > node index.js
+2021-10-27T16:52:00.866307+00:00 app[web.1]: 
+2021-10-27T16:52:01.087875+00:00 app[web.1]: app listening at http://localhost:5000
+2021-10-27T16:52:01.181574+00:00 app[web.1]: MongoServerError: bad auth : Authentication failed.
+2021-10-27T16:52:01.181595+00:00 app[web.1]: at MessageStream.messageHandler (/app/node_modules/mongodb/lib/cmap/connection.js:467:30)
+2021-10-27T16:52:01.181595+00:00 app[web.1]: at MessageStream.emit (events.js:400:28)
+2021-10-27T16:52:01.181595+00:00 app[web.1]: at processIncomingData (/app/node_modules/mongodb/lib/cmap/message_stream.js:108:16)
+2021-10-27T16:52:01.181595+00:00 app[web.1]: at MessageStream._write (/app/node_modules/mongodb/lib/cmap/message_stream.js:28:9)
+2021-10-27T16:52:01.181596+00:00 app[web.1]: at writeOrBuffer (internal/streams/writable.js:358:12)
+2021-10-27T16:52:01.181596+00:00 app[web.1]: at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+2021-10-27T16:52:01.181596+00:00 app[web.1]: at TLSSocket.ondata (internal/streams/readable.js:731:22)
+2021-10-27T16:52:01.181596+00:00 app[web.1]: at TLSSocket.emit (events.js:400:28)
+2021-10-27T16:52:01.181596+00:00 app[web.1]: at addChunk (internal/streams/readable.js:293:12)
+2021-10-27T16:52:01.181597+00:00 app[web.1]: at readableAddChunk (internal/streams/readable.js:267:9) {
+2021-10-27T16:52:01.181597+00:00 app[web.1]: ok: 0,
+2021-10-27T16:52:01.181597+00:00 app[web.1]: code: 8000,
+2021-10-27T16:52:01.181598+00:00 app[web.1]: codeName: 'AtlasError'
+2021-10-27T16:52:01.181598+00:00 app[web.1]: }
+2021-10-27T16:52:25.895201+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=611303ae-967d-46d3-a857-732b3eefd10a fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:52:59.235643+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=e3d347e9-bbf5-4e76-a17f-585fcbaf8e5c fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:00.514350+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-10-27T16:53:00.584179+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-10-27T16:53:00.620611+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2021-10-27T16:53:00.736547+00:00 heroku[web.1]: Process exited with status 22
+2021-10-27T16:53:00.942874+00:00 heroku[web.1]: State changed from starting to crashed
+2021-10-27T16:53:02.090984+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=06c52bee-50a5-4eeb-be0b-0a8f36244dc6 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:02.934661+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=30289878-0e34-436d-8684-e32f25b74362 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:19.145232+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=8f55a8c5-3a64-4f3d-aece-77e33731845f fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:19.788639+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=fa083b97-ed94-4fec-8241-cb7c613f9376 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:24.629476+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=da4fe4ba-edcb-48be-81a7-d6e59366aad4 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:25.104622+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=ad0d0b74-3715-4f43-9193-b8aa26b69118 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:44.809865+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=24c986e5-fe8b-4957-9014-e1d621fe5905 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:53:45.427325+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=c4a6e7a0-4d97-4e2f-b361-fa45e4376944 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:54:54.188116+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boiling-eyrie-60573.herokuapp.com request_id=260d9f7b-5ff2-4359-a75b-02971bfd0e7b fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
+2021-10-27T16:54:54.904103+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boiling-eyrie-60573.herokuapp.com request_id=77af3485-5c33-4dd2-aea4-13281a9854e1 fwd="182.48.67.194" dyno= connect= service= status=503 bytes= protocol=https
